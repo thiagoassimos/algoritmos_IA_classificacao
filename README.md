@@ -63,14 +63,23 @@ Será usado um modelo de validação cruzada estratificada com k-folds (k=10) pa
 **REGRESSÃO LOGÍSTICA - BASE TREINO**
 
 Fold 0 - Acurácia: 0.750; Precisão: 0.780; Recall: 0.870; F1-Score: 0.822
+
 Fold 1 - Acurácia: 0.747; Precisão: 0.777; Recall: 0.869; F1-Score: 0.821
+
 Fold 2 - Acurácia: 0.754; Precisão: 0.783; Recall: 0.873; F1-Score: 0.825
+
 Fold 3 - Acurácia: 0.748; Precisão: 0.779; Recall: 0.865; F1-Score: 0.820
+
 Fold 4 - Acurácia: 0.746; Precisão: 0.778; Recall: 0.865; F1-Score: 0.819
+
 Fold 5 - Acurácia: 0.748; Precisão: 0.779; Recall: 0.868; F1-Score: 0.821
+
 Fold 6 - Acurácia: 0.748; Precisão: 0.780; Recall: 0.866; F1-Score: 0.821
+
 Fold 7 - Acurácia: 0.747; Precisão: 0.778; Recall: 0.866; F1-Score: 0.820
+
 Fold 8 - Acurácia: 0.752; Precisão: 0.781; Recall: 0.872; F1-Score: 0.824
+
 Fold 9 - Acurácia: 0.749; Precisão: 0.779; Recall: 0.870; F1-Score: 0.822
 
 **MELHOR FOLD: 2**
