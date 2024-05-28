@@ -173,8 +173,6 @@ F1-Score: 0.854
 
 A curva ROC mostra a probabilidade de um resultado verdadeiro positivo (sensibilidade) *versus* a probabilidade de um resultado falso positivo (1-especificidade) para diferentes pontos de corte. Portanto, quanto maiores os valores da sensibilidade e menores os valores da 1-especificidade, mais próximo a curva estará do modelo perfeito. Uma outra forma de ver isso é a partir do cálculo da área sob a curva. Pelo gráfico podemos ver que a área máxima é 1, ou seja, quanto maior a área abaixo da curva ROC, significa que ela está mais próxima de 1 e portanto melhor será o modelo.
 
-#### Curva ROC para cada fold
-
 ![Alt text](roc_curve_logreg.png)
 ![Alt text](roc_curve_dt.png)
 ![Alt text](roc_curve_svm.png)
