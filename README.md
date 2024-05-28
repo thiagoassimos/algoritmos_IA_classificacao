@@ -1,6 +1,6 @@
 ## Descrição do problema
 
-Neste projeto serão analisados vinhos portugueses, brancos e tintos a partir de suas propriedades físico-químicas e sensoriais. O objetivo é utilizar Modelos Supervisionados para classificar estes vinhos como bons ou ruins.
+Neste projeto serão analisados somente os vinhos portugueses brancos a partir de suas propriedades físico-químicas e sensoriais. O objetivo é utilizar Modelos Supervisionados para classificar estes vinhos como bons ou ruins.
 É importante ressaltar que não temos informações sobre os tipos de uva, marca do vinho, preço de venda, etc. Além disso, também vale mencionar que há muito mais vinhos normais do que excelentes ou ruins. 
 
 ## Análise exploratória de dados 
