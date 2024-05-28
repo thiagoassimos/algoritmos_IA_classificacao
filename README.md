@@ -88,8 +88,11 @@ Fold 9 - Acurácia: 0.749; Precisão: 0.779; Recall: 0.870; F1-Score: 0.822
 **REGRESSÃO LOGÍSTICA - BASE DE TESTE  (MÉDIAS)**
 
 Acurácia: 0.748
+
 Precisão: 0.784
+
 Recall: 0.857
+
 F1-Score: 0.819
 ***
 
@@ -97,14 +100,23 @@ F1-Score: 0.819
   **ÁRVORE DE DECISÃO - BASE DE TREINO**
 
 Fold 0 - Acurácia: 0.757; Precisão: 0.807; Recall: 0.835; F1-Score: 0.821
+
 Fold 1 - Acurácia: 0.756; Precisão: 0.802; Recall: 0.839; F1-Score: 0.820
+
 Fold 2 - Acurácia: 0.760; Precisão: 0.805; Recall: 0.844; F1-Score: 0.824
+
 Fold 3 - Acurácia: 0.753; Precisão: 0.802; Recall: 0.835; F1-Score: 0.818
+
 Fold 4 - Acurácia: 0.757; Precisão: 0.805; Recall: 0.837; F1-Score: 0.821
+
 Fold 5 - Acurácia: 0.757; Precisão: 0.804; Recall: 0.838; F1-Score: 0.821
+
 Fold 6 - Acurácia: 0.757; Precisão: 0.806; Recall: 0.836; F1-Score: 0.821
+
 Fold 7 - Acurácia: 0.755; Precisão: 0.803; Recall: 0.838; F1-Score: 0.820
+
 Fold 8 - Acurácia: 0.756; Precisão: 0.804; Recall: 0.837; F1-Score: 0.820
+
 Fold 9 - Acurácia: 0.753; Precisão: 0.803; Recall: 0.833; F1-Score: 0.818
 
 **MELHOR FOLD: 2**
@@ -112,22 +124,34 @@ Fold 9 - Acurácia: 0.753; Precisão: 0.803; Recall: 0.833; F1-Score: 0.818
 **ÁRVORE DE DECISÃO - BASE DE TESTE (MÉDIAS)**
 
 Acurácia: 0.781
+
 Precisão: 0.812
+
 Recall: 0.872
+
 F1-Score: 0.841
 ***
 
 **SVM - BASE DE TREINO**
 
 Fold 0 - Acurácia: 0.825; Precisão: 0.846; Recall: 0.900; F1-Score: 0.872
+
 Fold 1 - Acurácia: 0.820; Precisão: 0.842; Recall: 0.898; F1-Score: 0.869
+
 Fold 2 - Acurácia: 0.826; Precisão: 0.843; Recall: 0.906; F1-Score: 0.874
+
 Fold 3 - Acurácia: 0.819; Precisão: 0.843; Recall: 0.895; F1-Score: 0.868
+
 Fold 4 - Acurácia: 0.819; Precisão: 0.842; Recall: 0.896; F1-Score: 0.868
+
 Fold 5 - Acurácia: 0.822; Precisão: 0.845; Recall: 0.898; F1-Score: 0.871
+
 Fold 6 - Acurácia: 0.823; Precisão: 0.844; Recall: 0.900; F1-Score: 0.871
+
 Fold 7 - Acurácia: 0.820; Precisão: 0.840; Recall: 0.901; F1-Score: 0.870
+
 Fold 8 - Acurácia: 0.823; Precisão: 0.843; Recall: 0.901; F1-Score: 0.871
+
 Fold 9 - Acurácia: 0.824; Precisão: 0.846; Recall: 0.899; F1-Score: 0.872
 
 **MELHOR FOLD: 2**
@@ -136,8 +160,11 @@ Fold 9 - Acurácia: 0.824; Precisão: 0.846; Recall: 0.899; F1-Score: 0.872
 **SVM - BASE DE TESTE (MÉDIAS)**
 
 Acurácia: 0.797
+
 Precisão: 0.816
+
 Recall: 0.897
+
 F1-Score: 0.854
 
 ***
@@ -160,8 +187,11 @@ A curva ROC mostra a probabilidade de um resultado verdadeiro positivo (sensibil
 **BASE DE TESTE**
 
 Acurácia: 0.7133
+
 Precisão: 0.8078
+
 Recall: 0.6420
+
 F1-Score: 0.6868
 
 Os resultados mostram diferenças em torno de 9%, 1%, 26% e 18% para acurácia, precisão, recall e f1-score, respectivamente. As reduções já eram esperadas já que vinhos brancos possuem peculiaridades que não estão nos vinhos tintos - como este modelo foi treinado para vinhos brancos, então ele fica enviesado a tratar esse tipo de vinho. 
