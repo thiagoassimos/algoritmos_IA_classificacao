@@ -58,7 +58,7 @@ Com essa análise, podemos afirmar que há influência individual de cada variá
 ## Algoritmos de classificação utilizados: **Regressão Logística, Árvore de Decisão e Support Vector Machine (SVM)**
 ***
 
-Será usado um modelo de validação cruzada estratificada com k-folds (k=10) para realizar a classificação e mostrarei qual fold apresenta o melhor resultado em relação à **```F1-Score```**, já que para este modelo é mais interessante ter a média harmônica entre a precisão e a recall. Segue os resultados para a base de treino e a média para a base de teste.
+Será usado um modelo de validação cruzada estratificada com k-folds (k=10) para realizar a classificação e mostrarei qual _fold_ apresenta o melhor resultado em relação à **```F1-Score```**, já que para este modelo é mais interessante ter a média harmônica entre a precisão e a recall. Segue os resultados para a base de treino e a média para a base de teste.
 ***
 **REGRESSÃO LOGÍSTICA - BASE TREINO**
 
@@ -204,8 +204,7 @@ Os resultados mostram diferenças em torno de 9%, 1%, 26% e 18% para acurácia, 
 Alguns pontos podem ser explorados para melhorar ainda mais o desempenho do modelo. Observa-se que os pares de variáveis "density"/"residual sugar" e "density"/"alcohol" possuem correlação forte, sendo negativa o último par. Correlações fortes quando analisadas pela ótica da multicolinearidade podem trazer alguns problemas ao modelo. Há algumas formas de identificar a multicolinearidade, como por exemplo: valores altos do coeficiente de correlação; grandes alterações dos coeficientes de regressão - quando adicionamos ou removemos uma variável independente, ou quando há mudanças ou exclusões de observações no modelo; dentre outras. Uma das formas mais comuns para detectar a multicolinearidade é por meio do fator de inflação da variância (VIF). E como resolver este impasse? Alguns métodos são utilizados, como por exemplo: 
 1) a remoção de uma ou mais variáveis independentes que estejam altamente correlacionadas e identificar outras variáveis independentes para ajudar na previsão. Obviamente procedimentos como este não devem ser feitos à revelia, pois podemos perder informações importantes contidas nas variáveis removidas; 
 2) ACP (Análise de Componentes Principais); 
-3) AF (Análise Fatorial); dentre outros.**
+3) AF (Análise Fatorial); dentre outros.
 
 Outro ponto importante seria treinar a base total para que ele (o modelo) entenda as características diferentes de cada vinho e assim consiga suprimir ainda mais as diferenças apresentadas entre as métricas da base de treino e da base de teste.
-***
 
